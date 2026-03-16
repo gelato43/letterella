@@ -170,14 +170,17 @@
     }
   
     .letter-text {
-        width: min(720px, 92vw);
-        white-space: pre-wrap;
+        max-width: 620px;
+        width: 90vw;
+      
+        white-space: normal;
         text-align: center;
+      
         font-size: 17px;
-        line-height: 1.38;
-        letter-spacing: 0;
-        color: #fff;
-        min-height: 360px;
+        line-height: 1.6;
+        letter-spacing: 0.3px;
+      
+        color: var(--fg);
       }
   
     .gallery-images {

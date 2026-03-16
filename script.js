@@ -12,25 +12,16 @@ const letterText = document.getElementById("letterText");
 
 const TEXT_SPEED = 50;
 
-const fullLetter = `Sarò sincero sono 4gg che penso a come iniziare questa lettera ma non
-so nemmeno da dove cominciare ma nel caso sappi che mi ci sono applicato per un po' ... grazie per la lettera
-comunque veramente creativo oltre che non immagino stare li a programmare
-pensando al gay che sono ma vab sono gusti personali :D . So che ti
-avevo detto che ti avrei scritto comunque, ma alla fine ho preferito rispettarti
-ed evitare di continuare a tenerti in una situazione in cui tu stessa
-non vuoi stare, non so se fosse la scelta giusta perché per quanto riguarda me è
-stato damaging e basta tanto continuo a pensarti sempre e comunque n i
-kept missin yo ass quindi non so se ha molto senso ig, ma vab ti ho scritto per
-ringraziarti della lettera e di esserci stata per me, francamente
-anche di essere venuta al compleanno di Roberto, quel giorno mi sono sentito malissimo
-e continuavo a dire a tutti che stavo male e non mi sentivo apposto prima di fare il disastro
-senza poter spiegare la verità giustamente il che è stato difficile, ed anche il motivo 
-di come mi sono combinato, ma era deserved dai mi ha aiutato a pensare
-e FORSE da un lato ero anche contento ci fossi :P (mi fa ridere usare ste emoji).
-Comunque no non ti odio e non mi infastidisci odio essere messo in
-determinate posizioni dagli altri senza chiedermelo non odio te.
-Vabbé a parte tutto spero tu ti stia divertendo e che stia andando
-tutto meglio since i left.
+const fullLetter = `Sarò sincero, sono 4 giorni che penso a come iniziare questa lettera e non so nemmeno da dove cominciare. Nel caso sappi che mi ci sono applicato per un po'... grazie per la lettera, comunque veramente creativo, oltre al fatto che non immagino stare lì a programmare pensando al gay che sono, ma vab sono gusti personali :D.
+
+So che ti avevo detto che ti avrei scritto comunque, ma alla fine ho preferito rispettarti ed evitare di continuare a tenerti in una situazione in cui tu stessa non vuoi stare. Non so se fosse la scelta giusta perché per quanto riguarda me è stato damaging e basta, tanto continuo a pensarti sempre e comunque e I kept missin' yo ass, quindi non so se ha molto senso ig, ma vab ti ho scritto per ringraziarti della lettera e di esserci stata per me.
+
+Francamente anche di essere venuta al compleanno di Roberto: quel giorno mi sono sentito malissimo e continuavo a dire a tutti che stavo male e non mi sentivo a posto prima di fare il disastro, senza poter spiegare la verità giustamente. Il che è stato difficile ed è anche il motivo di come mi sono combinato, ma era deserved dai, mi ha aiutato a pensare e forse da un lato ero anche contento ci fossi :P (mi fa ridere usare ste emoji).
+
+Comunque no, non ti odio e non mi infastidisci: odio essere messo in determinate posizioni dagli altri senza chiedermelo, non odio te.
+
+Vabbé, a parte tutto spero tu ti stia divertendo e che stia andando tutto meglio since I left.
+
 Mario`;
 
 let typingTimer = null;
