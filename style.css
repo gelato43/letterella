@@ -16,11 +16,12 @@
     background: var(--bg);
     color: var(--fg);
     font-family: "Courier New", Courier, monospace;
-    overflow: hidden;
+    overflow: auto;
   }
   
   body {
     min-height: 100vh;
+    overflow-y: auto;
   }
   
   button {
