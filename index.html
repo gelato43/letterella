@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lettera</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <!-- schermata iniziale -->
+    <section id="introScreen" class="screen">
+      <div class="intro-wrap">
+        <button id="openLetterBtn" class="envelope-button" aria-label="Apri la lettera">
+          <img src="pochita.jpg" alt="" class="envelope-img">
+        </button>
+
+        <div class="hint">click the letter</div>
+      </div>
+    </section>
+
+    <!-- schermata lettera -->
+    <section id="letterScreen" class="screen hidden">
+      <div class="letter-wrap">
+        <div id="letterText" class="letter-text"></div>
+
+        <div class="controls">
+          <button id="backBtn" class="pixel-btn" type="button">back</button>
+          <button id="replayBtn" class="pixel-btn" type="button">replay text</button>
+          <button id="nextBtn" class="pixel-btn" type="button">next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- schermata immagini -->
+    <section id="galleryScreen" class="screen hidden">
+      <div class="gallery-wrap">
+        <div class="gallery-images">
+          <img src="pochitabye.jpeg" alt="" class="gallery-img">
+          <img src="pochitaover.jpeg" alt="" class="gallery-img">
+        </div>
+
+        <div class="controls">
+          <button id="galleryBackBtn" class="pixel-btn" type="button">back</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
